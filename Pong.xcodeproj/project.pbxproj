@@ -15,6 +15,8 @@
 		0211DE8B29CB5244002FC533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0211DE8929CB5244002FC533 /* Main.storyboard */; };
 		0211DE8D29CB5245002FC533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0211DE8C29CB5245002FC533 /* Assets.xcassets */; };
 		0211DE9029CB5245002FC533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0211DE8E29CB5245002FC533 /* LaunchScreen.storyboard */; };
+		8D9485BB29D257780058EB5C /* LandingScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D9485BA29D257780058EB5C /* LandingScene.sks */; };
+		8D9485BD29D25F110058EB5C /* LandingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9485BC29D25F110058EB5C /* LandingScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		0211DE8A29CB5244002FC533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0211DE8C29CB5245002FC533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0211DE8F29CB5245002FC533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D9485BA29D257780058EB5C /* LandingScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LandingScene.sks; sourceTree = "<group>"; };
+		8D9485BC29D25F110058EB5C /* LandingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,10 @@
 			children = (
 				0211DE7F29CB5244002FC533 /* AppDelegate.swift */,
 				0211DE8129CB5244002FC533 /* GameScene.sks */,
-				0211DE8329CB5244002FC533 /* Actions.sks */,
 				0211DE8529CB5244002FC533 /* GameScene.swift */,
+				8D9485BA29D257780058EB5C /* LandingScene.sks */,
+				8D9485BC29D25F110058EB5C /* LandingScene.swift */,
+				0211DE8329CB5244002FC533 /* Actions.sks */,
 				0211DE8729CB5244002FC533 /* GameViewController.swift */,
 				0211DE8929CB5244002FC533 /* Main.storyboard */,
 				0211DE8C29CB5245002FC533 /* Assets.xcassets */,
@@ -129,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D9485BB29D257780058EB5C /* LandingScene.sks in Resources */,
 				0211DE8B29CB5244002FC533 /* Main.storyboard in Resources */,
 				0211DE8229CB5244002FC533 /* GameScene.sks in Resources */,
 				0211DE8D29CB5245002FC533 /* Assets.xcassets in Resources */,
@@ -144,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D9485BD29D25F110058EB5C /* LandingScene.swift in Sources */,
 				0211DE8629CB5244002FC533 /* GameScene.swift in Sources */,
 				0211DE8829CB5244002FC533 /* GameViewController.swift in Sources */,
 				0211DE8029CB5244002FC533 /* AppDelegate.swift in Sources */,
@@ -293,13 +301,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 989UN2H8Y2;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Teddy's Pong";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,13 +332,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 989UN2H8Y2;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Teddy's Pong";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
